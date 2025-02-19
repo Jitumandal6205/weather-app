@@ -11,6 +11,7 @@
     }
 
     .card { 
+        display: flex;
         width: 90%;
         max-width: 470px;
         background: linear-gradient(135deg, #00feba, #5b548a);
@@ -43,7 +44,7 @@
     }
 
     .search button {
-
+        
         border: 0;
         outline: 0;
         background: #ebfffc;
@@ -55,9 +56,19 @@
     }
 
     .search button img {
-
         width: 16px;
+        margin-right: 14px;
     }
+
+    /* .Button {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: none;
+        margin: ;
+    
+    } */
 
     .weather-icon {
         width: 170px;
